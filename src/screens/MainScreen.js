@@ -1,9 +1,13 @@
 import React from 'react';
 import { Text, StyleSheet, Button } from 'react-native';
+import { KEY } from '@env';
 
 const MainScreen = ({ navigation }) => {
   return (
-    <Button title="Google" onPress={() => navigation.navigate('Google')} />
+    <>
+      <Text></Text>
+      <Button title="Google" onPress={() => navigation.navigate('Google')} />
+    </>
   );
 };
 
